@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "red-onion",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

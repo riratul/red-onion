@@ -1,0 +1,125 @@
+img{ max-width: 100%;}
+#header-section{
+	padding: 20px 0;
+}
+.btn-primary{
+	background: #f91944;
+	border-radius: 20px;
+	padding: 6px 25px;
+	border: 0;
+}
+.nav-item{
+	margin: 0 20px;
+}
+.navbar-light  .nav-link{
+    color: #000 !important;
+    font-size: 16px;
+}
+#banner{
+	padding: 200px 0;
+	background: url(../images/bannerbackground.png) no-repeat center center;
+	text-align: center;
+}
+#banner .input-group{
+	width: 400px;
+	padding-left: 5px;
+	background: #FFF;
+	margin: 30px auto;
+	border-radius: 30px;
+}
+#banner .form-control{
+	margin: 5px 0;
+	border: 0;
+}
+#banner .input-group-append{
+	background: #f91944;
+	border-radius: 30px;
+	padding: 6px 25px;
+	border: 0;
+	cursor: pointer;
+}
+#banner .input-group-text{
+	background: none;
+	border: 0;
+	color: #FFF;
+	font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 50px;  
+    font-family: 'Open Sans' ;
+}
+#contentBody{
+	padding:75px 0;
+}
+.tabs{ margin-bottom: 50px; list-style: none; text-align: center;}
+.tabs li{ display: inline; padding: 0 20px;}
+.tabs li a{ text-decoration: none; padding-bottom: 5px; color: #000;}
+.tabs li.selected a,.tabs li a:hover{  color: #f91944; border-bottom: 5px solid #f91944; }
+.card-deck .card {
+     border:0;
+     border-radius: 10px;
+     box-shadow: 0 0 15px #e5e4e4;
+}
+.card-deck .card.content-center{
+    padding: 25px 0;
+}
+.card-img-top{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+#categories h2{
+    text-align: center;
+}
+#categories h2:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto; 
+    width:120px; 
+    padding-top: 20px; 
+    border-bottom: 8px solid #ffbe23; 
+}
+.cat-thumb img{
+    padding: 20px;
+    box-shadow: 0 0 15px #e5e4e4;
+}
+
+#bottom{
+	padding: 80px 0;
+	background: #000;
+	color: #FFF;
+}
+#bottom a{
+	color: #FFF;
+}
+#bottom ul{
+	list-style: none;
+}
+#bottom ul li{
+	padding:5px 0;
+}
+
+#footer{
+	padding: 20px 0;
+	background: #000;
+	color: #FFF;
+}
+#footer a{
+	color: #FFF;
+}
+@media screen and (max-width:767px){
+	.card-deck{
+		flex-flow: row wrap !important;
+		text-align: center
+	}
+	.card-deck .card{
+		clear: both;
+		margin: 10px auto;
+		display: block !important;
+		flex: none !important;
+	}
+}
